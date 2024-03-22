@@ -29,3 +29,24 @@ roverAbort.executeCommands(commandsAbort);
 const abortedResult = roverAbort.finalResult();
 console.log(abortedResult);
 
+
+// More Test Cases
+const roverAbort2 = new MarsRover(2, 3, 'NORTH');
+const commandsAbort2 = "RFFFFFRFF";
+roverAbort2.executeCommands(commandsAbort2);
+const abortedResult2 = roverAbort2.finalResult();
+console.log(abortedResult2);
+
+
+const roverAbort3 = new MarsRover(5, 5, 'SOUTH');
+const commandsAbort3 = "LFFFLB";
+roverAbort3.executeCommands(commandsAbort3);
+const abortedResult3 = roverAbort3.finalResult();
+console.log(abortedResult3);
+
+
+const roverAbort4 = new MarsRover(7, 7, 'WEST');
+const commandsAbort4 = "FBFRFL";
+roverAbort4.executeCommands(commandsAbort4);
+const abortedResult4 = roverAbort4.finalResult();
+console.log(abortedResult4);
